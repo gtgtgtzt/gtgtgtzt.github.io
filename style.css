@@ -1,0 +1,49 @@
+.wrap {
+    width: 1890px;
+    height: 4000px;
+    background-color: #444;
+    display: flex;
+    gap: 12px;
+}
+aside {
+    width: 20%;
+    height: 2047px;
+    background-color: #1c1c1c;
+}
+section {
+    width: 80%;
+    height: 2513px;
+    background-color: #666;
+}
+section > div {
+    width: 100%;
+}
+.nav {
+    height: 62px;
+    background: #1C1C1C;
+}
+.carousel {
+    height: 436px;
+    background: #1C1C1C;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.live-wd {
+    height: 229px;
+    background: #1c1c1c;
+}
+.collection {
+    height: 308px;
+    background: #1c1c1c;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.casino {
+    height: 575px;
+    background: #1c1c1c;
+    margin-bottom: 16px;
+}
+.slot {
+    height: 808px;
+    background: #1c1c1c;
+}
