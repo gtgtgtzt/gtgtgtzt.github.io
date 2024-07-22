@@ -163,7 +163,11 @@ body {
         margin-bottom: 1px;
     }
     /* 스와이퍼 슬라이드 */
+    .btn-close {
+        margin-left: 300px;
+        margin-top: 60px;
+    }
     .swiper {
-        margin-top: -50px;
+        margin-top: -90px;
     }
 }
