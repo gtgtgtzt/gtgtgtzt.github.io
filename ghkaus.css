@@ -1,0 +1,169 @@
+/* 화면 너비 769 ~ 2600px */
+@media (max-width: 2600px) {
+
+}
+
+/* 화면 너비 686 ~ 1170px */
+@media (max-width: 1170px) {
+    /* 로고 */
+    .logo-container {
+        margin-top: -40px;
+    }
+    /* 로고2 */
+    .logo2-container {
+        margin-top: -50px;
+        margin-bottom: 10px;
+    }
+    /* 윈 텍스트 */
+    .win-container {
+        font-family: SCDream3;
+        width: 100%;
+        font-size: 35px;
+        margin: 0 auto;
+        height: 40px;
+    }
+    /* 로카 리다이렉션 */
+    .Roka-container {
+        margin-top: 30px;
+    }
+    .Roka-item {
+        width: 50%;
+        height: 60px;
+        font-family: VITRO;
+        font-size: 40px;
+    }
+    .Roka-content {
+        margin-bottom: 5px;
+    }
+}
+
+/* 화면 너비 686 ~ 977px */
+@media (max-width: 977px) {
+/* 윈 텍스트 */
+.win-container {
+    font-family: SCDream3;
+    width: 90%;
+    font-size: 35px;
+    margin-top: 20px;
+    margin: 0 auto;
+    height: 20px;
+}
+/* 로카 리다이렉션 */
+.Roka-container {
+    margin-top: 100px;
+}
+.Roka-item {
+    width: 400px;
+    height: 50px;
+    font-family: VITRO;
+    font-size: 33px;
+}
+/* 스와이퍼 슬라이드 */
+.swiper {
+    margin-top: -40px;
+}
+}
+
+/* 화면 너비 431 ~ 685px */
+@media (max-width: 685px) {
+    /* 로고 */
+    .logo {
+        width: 206px;
+        height: 147px;
+    }
+    .logo-container {
+        margin-top: -10px;
+    }
+    /* 로고2 */
+    .logo2 {
+        width: 123px;
+        height: 81px;
+    }
+    .logo2-container {
+        margin-top: -91px;
+    }
+    /* 윈 텍스트 */
+    .win-container {
+        font-family: SCDream4;
+        width: 70%;
+        font-size: 25px;
+        margin: 0 auto;
+        margin-top: -30px;
+        height: 20px;
+    }
+    /* 로카 리다이렉션 */
+    .Roka-container {
+        margin-top: 70px;
+    }
+    .Roka-item {
+        width: 400px;
+        height: 50px;
+        font-family: VITRO;
+        font-size: 33px;
+    }
+    .Roka-content {
+        margin-bottom: -5px;
+    }
+    /* 스와이퍼 슬라이드 */
+    .swiper {
+        margin-top: -50px;
+    }
+
+}
+
+/* 화면 너비 0 ~ 430px */
+@media (max-width: 430px) {
+body {
+    background-position: -699px 60px;
+}
+    /* 로고 */
+    .logo-container {
+        margin-top: -20px;
+    }
+    .logo {
+        width: 206px;
+        height: 137px;
+    }
+
+    /* 로고2 */
+    .logo2-container {
+        margin-top: -92px;
+    }
+    .logo2 {
+        width: 123px;
+        height: 81px;
+    }
+    /* 텔레그램 */
+    a > img {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* 윈 텍스트 */
+    .win-container {
+        font-family: SCDream9;
+        width: 65%;
+        font-size: 28px;
+        margin-top: 20px;
+        margin: 0 auto;
+        height: 20px;
+        margin-top: -40px;
+    }
+    /* 로카 리다이렉션 */
+    .Roka-container {
+        margin-top: 153px;
+    }
+    .Roka-item {
+        width: 306px;
+        height: 55px;
+        font-family: VITRO;
+        font-size: 28px;
+    }
+    .Roka-content {
+        margin-bottom: 1px;
+    }
+    /* 스와이퍼 슬라이드 */
+    .swiper {
+        margin-top: -50px;
+    }
+}

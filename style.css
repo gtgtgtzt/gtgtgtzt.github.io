@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url(img/MOTION4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* 전체 싸맴 */
+.wrap {
+    width: 100%;
+    height: 100vh;
+}
+
+/* 로고 */
+.logo-container {
+    width: 100%;
+    height: 210px;
+    margin-top: -30px;
+}
+
+.logo {
+    width: 304px;
+    height: 203px;
+    margin: 0 auto;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* 로고2 */
+.logo2-container {
+    width: 100%;
+    height: 120px;
+    margin-top: -40px;
+}
+
+.logo2 {
+    width: 173px;
+    height: 114px;
+    background-image: url(img/\(3\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+a > img {
+    width: 42px;
+    height: 42px;
+}
+
+/* 윈 텍스트 */
+.win-container {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: SCDream6;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* 로카 리다이렉션 */
+.Roka-container {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 35px;
+}
+
+.Roka-content {
+    width: 100%;
+    height: 67px;
+    margin-bottom: 15px;
+}
+
+.Roka-content:last-child {
+    margin-bottom: 0;
+}
+
+.Roka-item {
+    width: 464px;
+    height: 67px;
+    display: block;
+    background: linear-gradient(#FF0000, #860F0F);
+    ;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-family: VITRO;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* 스와이퍼 */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+
+.mySwiper {
+    height: 30%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 80%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+/* 스와이퍼 위 */
+
+.btn-container {
+    width: 100%;
+    height: 50px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.btn-move {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.btn-close {
+    width: 65px;
+    height: 40px;
+    background-color: #FF0000;
+    right: 200px;
+    margin-left: 400px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: VITRO;
+    font-size: 20px;
+}
