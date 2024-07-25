@@ -1,21 +1,12 @@
 /* 화면 너비 1441 ~ 2685px */
-@media (max-width: 2685px) {
-    /* 윈텍스트 */
-
+/* @media (max-width: 2685px) {
     .Roka-container {
         margin-top: 30px;
     }
-    .btn-close {
-        margin-left: 400px;
-        margin-top: 10px;
-    }
-}
+} */
 
 /* 화면 너비 769 ~ 1440px */
 @media (max-width: 1440px) {
-    .btn-close {
-        margin-left: 300px;
-    }
     /* 로고 */
     .logo-container {
         margin-top: -40px;
@@ -51,7 +42,6 @@
 /* 화면 너비 431 ~ 768px */
 @media (max-width: 768px) {
 /* 윈 텍스트 */
-
 .win-container {
     font-family: SCDream7;
     width: 100%;
@@ -80,7 +70,7 @@
 /* 화면 너비 376 ~ 430px */
 @media (max-width: 430px) {
 body {
-    background-position: -590px 40px;
+    background-position: -740px 40px;
 }
     /* 로고 */
     .logo-container {
@@ -129,14 +119,7 @@ body {
     .Roka-content {
         margin-bottom: 1px;
     }
-    /* 스와이퍼 슬라이드 */
-    .btn-close {
-        margin-left: 300px;
-        margin-top: 20px;
-    }
-    .swiper {
-        margin-top: -90px;
-    }
+
 }
 
 @media (max-width: 375px) {
