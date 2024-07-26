@@ -69,9 +69,6 @@
 
 /* 화면 너비 376 ~ 430px */
 @media (max-width: 430px) {
-body {
-    background-position: -740px 40px;
-}
     /* 로고 */
     .logo-container {
         margin-top: -20px;
@@ -108,7 +105,6 @@ body {
     /* 로카 리다이렉션 */
     .Roka-container {
         margin-top: 140px;
-        margin-bottom: 80px;
     }
     .Roka-item {
         width: 306px;
@@ -118,6 +114,10 @@ body {
     }
     .Roka-content {
         margin-bottom: 1px;
+    }
+    .btn-close {
+        margin-top: 180px;
+        margin-right: 110px;
     }
 
 }
