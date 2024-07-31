@@ -109,25 +109,23 @@
     /* 윈 텍스트 */
     .win-container {
         font-family: SCDream7;
-        width: 70%;
         font-size: 25px;
         margin-top: 20px;
         margin: 0 auto;
         height: 20px;
         margin-top: -30px;
+        margin-bottom: -40px;
     }
     /* 로카 리다이렉션 */
     .Roka-container {
         margin-top: 140px;
+        margin-bottom: -5px;
     }
     .Roka-item {
         width: 306px;
         height: 55px;
         font-family: VITRO;
         font-size: 28px;
-    }
-    .Roka-content {
-        margin-bottom: 1px;
     }
 
 }
@@ -139,7 +137,7 @@
     }
     .win-container {
         font-family: SCDream7;
-        width: 81%;
+        width: 100%;
         font-size: 27px;
         margin-top: 20px;
         margin: 0 auto;
