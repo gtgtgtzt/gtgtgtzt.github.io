@@ -3,18 +3,16 @@
     padding: 0;
 }
 
-body {
+/* 전체 싸맴 */
+.wrap {
+    width: 100%;
+    height: 105vh;
     background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),
             rgba(0, 0, 0, 0.3)), url(img/MOTION4.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-/* 전체 싸맴 */
-.wrap {
-    width: 100%;
-    height: 100vh;
+    background-position: center;
 }
 
 /* 로고 */
@@ -73,7 +71,7 @@ a > img {
 .Roka-container {
     width: 100%;
     height: 220px;
-    margin-top: 109px;
+    margin-top: 90px;
     margin-bottom: 35px;
 }
 
