@@ -44,6 +44,7 @@
                 rgba(0, 0, 0, 0.3)), url(img/MOTION4.png);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: -700px -30px;
     }
     .btn-close {
         width: 53px;
@@ -83,6 +84,7 @@
                 rgba(0, 0, 0, 0.3)), url(img/MOTION4.png);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: -700px -30px;
     }
     .btn-close {
         width: 53px;
@@ -99,6 +101,7 @@
                 rgba(0, 0, 0, 0.3)), url(img/MOTION4.png);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: -700px -30px;
     }
     /* 로고 */
     .logo-container {
@@ -154,6 +157,7 @@
                 rgba(0, 0, 0, 0.3)), url(img/MOTION4.png);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: -700px -30px;
     }
     .win-container {
         font-family: SCDream7;
@@ -181,6 +185,7 @@
                 rgba(0, 0, 0, 0.3)), url(img/MOTION4.png);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: -700px -30px;
     }
     .win-container {
         font-family: SCDream7;
