@@ -146,7 +146,7 @@
     .btn-close {
         width: 53px;
         height: 31px;
-        margin-top: 50px;
+        margin-top: 55px;
         margin-right: 130px;
     }
 
@@ -189,6 +189,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: -400px 30px;
+    }
+    .btn-close {
+        width: 53px;
+        height: 31px;
+        margin-top: 10px;
+        margin-right: 130px;
     }
     .win-container {
         font-family: SCDream7;
