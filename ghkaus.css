@@ -146,8 +146,8 @@
     .btn-close {
         width: 53px;
         height: 31px;
-        margin-top: 55px;
-        margin-right: 130px;
+        margin-top: 20px;
+        margin-right: 110px;
     }
 
     /* 윈 텍스트 */
@@ -157,13 +157,13 @@
         margin-top: 20px;
         margin: 0 auto;
         height: 20px;
-        margin-top: -30px;
+        margin-top: -40px;
         margin-bottom: -40px;
     }
     /* 로카 리다이렉션 */
     .Roka-container {
         margin-top: 140px;
-        margin-bottom: -5px;
+        margin-bottom: -30px;
     }
     .Roka-item {
         width: 306px;
@@ -172,9 +172,15 @@
         font-size: 28px;
     }
     /* 스와이퍼 위 */
-    
+    #we {
+        position: absolute;
+        top: 400px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
     #we-slide > img {
-        width: 60%;
+        width: 75%;
         height: 434px;
     }
 }
@@ -196,6 +202,13 @@
         margin-top: 10px;
         margin-right: 130px;
     }
+        /* 로고2 */
+    .logo2-container {
+        width: 123px;
+        height: 81px;
+        margin: 0 auto;
+        margin-top: -100px;
+    }
     .win-container {
         font-family: SCDream7;
         width: 100%;
@@ -203,15 +216,29 @@
         margin-top: 20px;
         margin: 0 auto;
         height: 20px;
-        margin-top: -30px;
-        margin-bottom: -20px;
+        margin-top: 10px;
+        margin-bottom: -30px;
+    }
+    .mySwiper {
+        margin-top: -20px;
     }
     .Roka-container {
         margin-bottom: -20px;
     }
     .btn-container {
-        margin-left: -10px;
-        margin-top: 40px;
+        margin-top: 10px;
+    }
+    /* 스와이퍼 위 */
+    #we {
+        position: absolute;
+        top: 410px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+    #we-slide > img {
+        width: 75%;
+        height: 434px;
     }
     
 }
