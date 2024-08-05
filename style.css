@@ -190,6 +190,7 @@ a > img {
     font-family: VITRO;
     font-size: 20px;
     z-index: 10;
+    border: none;
 }
 
 #swiper-btn {
