@@ -38,16 +38,6 @@
     }
 }
 @media (max-width: 900px) {
-    .wrap {
-        width: 100%;
-        height: 105vh;
-        background-color: black;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url(img/MOTION4.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: -750px 70px;
-    }
     .btn-close {
         width: 53px;
         height: 31px;
@@ -111,9 +101,9 @@
 }
 
 @media (max-width: 430px) {
-    .wrap {
+    body {
         width: 100%;
-        height: 105vh;
+        height: 100vh;
         background-color: black;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)), url(img/MOTION4.png);
@@ -186,9 +176,9 @@
 }
 
 @media (max-width: 375px) {
-    .wrap {
+    body {
         width: 100%;
-        height: 105vh;
+        height: 100vh;
         background-color: black;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)), url(img/MOTION4.png);
@@ -243,9 +233,9 @@
     
 }
 @media (max-width: 320px) {
-    .wrap {
+    body {
         width: 100%;
-        height: 105vh;
+        height: 100vh;
         background-color: black;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)), url(img/MOTION4.png);
